@@ -46,6 +46,8 @@ beta = 1.0 / loss_bbox.item()
 loss = alpha * loss_class + beta * loss_bbox
 ````
 
+Unfortunetaly, there is an error on the loss while launching the code. We are trying to fix it.
+
 ## Steps Implemented in the Code
 
 ### Loading Annotations
