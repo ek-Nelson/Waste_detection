@@ -7,6 +7,10 @@ This document provides a detailed description of the project, including the mode
 ## Introduction
 This project aims to develop an object detection system using deep neural networks (CNN). The input data consists of images associated with JSON annotations that specify the bounding boxes and classes of the objects in each image. The model predicts the coordinates of the bounding boxes along with their corresponding classes.
 
+<b>
+NB: In order to run the code, please make sure to download the dataset folder that we send you and modify the path of those folder into the code
+</b>
+
 ## Project Architecture
 ## Dataset
 Before training our model, we built our own dataset. 
