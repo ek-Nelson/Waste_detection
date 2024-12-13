@@ -85,6 +85,14 @@ The data is organized as follows:
 ```
 
 
+
+## References
+- https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#implementation
+- https://blent.ai/blog/a/detection-images-yolo-tensorflow
+- https://ieeexplore.ieee.org/abstract/document/9417895
+- https://chatgpt.com/c/673bae07-7090-8004-8cd9-1b1180cee61b
+
+
 ## Project Usefulness
 
 - Detection and Classification: Identifying objects in images with their bounding boxes and their classes (4 classes: e.g., plastic, cardboard, etc.).
