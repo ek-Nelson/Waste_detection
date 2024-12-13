@@ -8,6 +8,14 @@ This document provides a detailed description of the project, including the mode
 This project aims to develop an object detection system using deep neural networks (CNN). The input data consists of images associated with JSON annotations that specify the bounding boxes and classes of the objects in each image. The model predicts the coordinates of the bounding boxes along with their corresponding classes.
 
 ## Project Architecture
+Before training our model, we built our own dataset. 
+The dataset contains 4 classes which are : "cardboard", "glass", "metal" and "plastic"
+
+We have taken many photos of those items, sometimes individually, but mostly grouped on one image.
+Due to the small size of our dataset, we tried to apply an augmentation, after labeling them.
+
+
+
 ### Model Used
 - Convolutional Neural Network (CNN): The architecture is based on a convolutional network (CNN), ResNet-50, used as a pre-trained backbone. This architecture is chosen for its ability to extract robust features from images while remaining efficient in terms of computation.
 - Prediction Heads:
