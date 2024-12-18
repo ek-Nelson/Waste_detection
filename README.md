@@ -99,6 +99,8 @@ The data is organized as follows:
 - https://blent.ai/blog/a/detection-images-yolo-tensorflow
 - https://ieeexplore.ieee.org/abstract/document/9417895
 - https://chatgpt.com/c/673bae07-7090-8004-8cd9-1b1180cee61b
+- https://github.com/wingedrasengan927/pytorch-tutorials/tree/master/Object%20Detection
+- https://github.com/YaelBenShalom/Objects-Recognition-and-Classification
 
 
 ## Project Usefulness
