@@ -23,11 +23,13 @@ For this, we used Roboflow, where we also grouped our data into train, test and 
 
 
 ### Model Used
-- Convolutional Neural Network (CNN): The architecture is based on a convolutional network (CNN), ResNet-50, used as a pre-trained backbone. This architecture is chosen for its ability to extract robust features from images while remaining efficient in terms of computation.
+- We have firstly applied the yolo(v5) training model.
+- After that, we applied Convolutional Neural Network (CNN): The architecture is based on a convolutional network (CNN), ResNet-50, used as a pre-trained backbone. This architecture is chosen for its ability to extract robust features from images while remaining efficient in terms of computation.
 - Prediction Heads:
 - A classification layer that predicts the classes of the objects among 4 defined categories.
--  A regression layer that predicts the coordinates of the bounding boxes (x, y, width, height).
-- Advantages of the Architecture:
+- A regression layer that predicts the coordinates of the bounding boxes (x, y, width, height).
+
+   Advantages of the Architecture:
 - Modularity: The clear separation between feature extraction and prediction allows for easy modification or enhancement of components.
 - Pre-training: The pre-trained backbone improves convergence and reduces the need for large volumes of data.
   
